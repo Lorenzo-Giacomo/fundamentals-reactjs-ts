@@ -1,0 +1,18 @@
+.avatar {
+  /* box-sizing: initial; */
+  /* faz com que quando se add borda, outline, padding, isso ocupe um espaço a mais, e não esprema o elemento para caber dentro do container.*/
+  /* também é possível fazer cálculos adicionando a quantidade de pixels que estamos adicionando:
+  width: calc(3rem + 12px)
+  */
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.avatarWithBorder {
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 4px solid  var(--gray-800);
+  outline: 3px solid var(--green-500)
+}
